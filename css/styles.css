@@ -201,27 +201,44 @@ font-family: 'Raleway' ,sans-serif;
 
 /* ===============Portfolio=============== */
 .filter-item {
-idth: 21px;
-    height: 24px;
-    font-family: 'Roboto';
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        width: 116px;
+        height: 48px;
+        background: #F4F4FD;
+        /* CORNFLOWER */
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.filter-button {
+font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 0.67;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-
     color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
+    cursor: pointer;
 }
-.filter-item:hover,
-.filter-item:focus {
-    background-color: #4D5AE5;
+.filter-button:focus,
+.filter-button:hover {
+    background-color: #404BBF;
     color: #FFFFFF;
+    
 }
 
 
