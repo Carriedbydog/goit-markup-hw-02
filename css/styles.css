@@ -1,6 +1,10 @@
 :root {
 --accent-color: #404BBF;
 --headers-description : #2E2F42;
+--descriptions: #434455;
+--footer-descriptiom: #F4F4FD;
+--button-color: #4d5ae5;
+--button-background: #F4F4FD;
 }
 .list {
     list-style: none;
@@ -56,6 +60,7 @@ font-family: 'Raleway', sans-serif;
 }
 .address-link {
         font-style: normal;
+        list-style: none;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -75,7 +80,7 @@ color: #404bbf;
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -87,7 +92,7 @@ color: #404bbf;
         line-height: 1.5;
         letter-spacing: 0.04em;
         background: #4D5AE5;
-        color: #ffffff;
+        color: #434455;
     cursor: pointer;
 }
 .order-button:hover,
@@ -109,7 +114,7 @@ color: #404bbf;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--headers-description);
+        color: var(--descriptions);
 }
 /* ===============/Our Goals=============== */
 
@@ -118,7 +123,8 @@ color: #404bbf;
 .services {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.2;
+        line-height: 1.11;
+        text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--headers-description);
@@ -135,12 +141,15 @@ color: #404bbf;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        text-align: center
+        text-align: center;
         color: var(--headers-description);
 
 }
 .team-menu {
     background-color: #FFFFFF
+}
+.team-item {
+    background-color: #FFFFFF;
 }
 .team-name {
     font-weight: 500;
@@ -154,7 +163,7 @@ color: #404bbf;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--headers-description);
 }
 /* ===============/Our Team=============== */
 
@@ -176,34 +185,54 @@ color: #404bbf;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--footer-descriptiom);
 }
 .footer-description {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #F4F4FD;
+        color: var(--footer-descriptiom);
 }
 /* ===============/Footer=============== */
 
 
 /* ===============Portfolio=============== */
+.portfolio-list {
+    text-decoration: none;
+}
 .filter-button {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.67;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    color: var(--button-color);
+    background-color: var(--button-background);
 }
 .filter-button:focus,
 .filter-button:hover {
     background-color: var(--accent-color);
     color: #FFFFFF;
     
+}
+.portfolio-list-head {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--headers-description);
+
+}
+.portfolio-list-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--descriptions);
 }
 /* ===============/Portfolio=============== */
 
