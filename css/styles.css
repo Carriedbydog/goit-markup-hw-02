@@ -1,3 +1,7 @@
+:root {
+--accent-color: #404BBF;
+--headers-description : #2E2F42;
+}
 .list {
     list-style: none;
 }
@@ -6,6 +10,9 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+    
 }
 /* ===============HEADER=============== */
 .logo-first-part-header {
@@ -13,78 +20,79 @@ font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 0.85;
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    color: #4d5ae5;
+
 }
 .logo-second-part-header {
 font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 0.85;
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    color: #2e2f42;
+
 }
 
 .menu-link {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 0.67;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--headers-description);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+
+}
+.adress {
+    font-style: normal;
 }
 .address-link {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 0.67;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
+color: #404bbf;
 }
 /* ===============/HEADER=============== */
 
 /* ===============Hero=============== */
+.hero {
+    background-color: #2e2f42;
+}
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 0.91x;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    /* color: #FFFFFF; */
+    color: #ffffff;
 }
 .order-button {
+    font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 0.67;
-        display: flex;
-        align-items: center;
+        line-height: 1.5;
         letter-spacing: 0.04em;
-        /* color: #FFFFFF; */ 
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+        background: #4D5AE5;
+        color: #ffffff;
     cursor: pointer;
+}
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF
 }
 /* ===============/Hero=============== */
 
@@ -94,19 +102,14 @@ font-family: 'Raleway', sans-serif;
         font-size: 20px;
         line-height: 0.8;
         letter-spacing: 0.02em;
-        color: #2E2F42;
-        flex: none;
-        order: 0;
+        color: var(--headers-description);
 }
 .goals-description {
         font-weight: 400;
         font-size: 16px;
-        line-height: 0.8;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+        color: var(--headers-description);
 }
 /* ===============/Our Goals=============== */
 
@@ -115,84 +118,73 @@ font-family: 'Raleway', sans-serif;
 .services {
         font-weight: 700;
         font-size: 36px;
-        line-height: 0.9;
-        text-align: center;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-
-        color: #2E2F42;
+        color: var(--headers-description);
 }
 /* ===============/Our Services=============== */
 
 /* ===============Our Team=============== */
+.our-team-section {
+    background-color: #F4F4FD
+}
 .team-section {
     font-weight: 700;
         font-size: 36px;
-        line-height: 0.9;
-        text-align: center;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;
+        text-align: center
+        color: var(--headers-description);
+
+}
+.team-menu {
+    background-color: #FFFFFF
 }
 .team-name {
     font-weight: 500;
         font-size: 20px;
-        line-height: 0.8;
-        text-align: center;
+        line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+        color: var(--headers-description);
 }
 .team-position {
     font-weight: 400;
         font-size: 16px;
-        line-height: 0.67;
-        text-align: center;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
 }
 /* ===============/Our Team=============== */
 
 
 /* ===============Footer=============== */
+.footer {
+    background-color: #2e2f42;
+}
 .logo-first-part-footer {
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 0.85;
-        display: flex;
-        align-items: center;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+        color: #4d5ae5;
 }
 .logo-second-part-footer {
-font-family: 'Raleway' ,sans-serif;
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 0.85;
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 .footer-description {
     font-weight: 400;
         font-size: 16px;
-        line-height: 0.67;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
@@ -200,49 +192,19 @@ font-family: 'Raleway' ,sans-serif;
 
 
 /* ===============Portfolio=============== */
-.filter-item {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 24px;
-        width: 116px;
-        height: 48px;
-        background: #F4F4FD;
-        /* CORNFLOWER */
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-        /* Inside auto layout */
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-}
 .filter-button {
-font-family: 'Roboto',sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 0.67;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     cursor: pointer;
 }
 .filter-button:focus,
 .filter-button:hover {
-    background-color: #404BBF;
+    background-color: var(--accent-color);
     color: #FFFFFF;
     
 }
-
-
-
 /* ===============/Portfolio=============== */
 
 
