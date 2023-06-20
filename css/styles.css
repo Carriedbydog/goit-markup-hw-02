@@ -226,13 +226,14 @@ color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--headers-description);
-
+    text-decoration: none;
 }
 .portfolio-list-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--descriptions);
+    text-decoration: none;
 }
 /* ===============/Portfolio=============== */
 
