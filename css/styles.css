@@ -1,6 +1,6 @@
 :root {
 --accent-color: #404BBF;
---headers-description : #2E2F42;
+--headers-description: #2E2F42;
 --descriptions: #434455;
 --footer-description: #F4F4FD;
 --button-color: #4d5ae5;
@@ -142,7 +142,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
-        color: var(--headers-description);
+        color: var(--descriptions);
 
 }
 .team-menu {
@@ -191,11 +191,11 @@ color: #404bbf;
     color: var(--footer-description);
 }
 .footer-description {
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--footer-description);
+        color:var(--footer-description);
 }
 /* ===============/Footer=============== */
 
