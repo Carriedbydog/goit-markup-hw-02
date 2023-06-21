@@ -142,7 +142,7 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
-        color: var(--descriptions);
+        color: var(--headers-description);
 
 }
 .team-menu {
@@ -163,7 +163,7 @@ color: #404bbf;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--headers-description);
+        color: var(--descriptions);
 }
 /* ===============/Our Team=============== */
 
